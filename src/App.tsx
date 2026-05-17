@@ -1,9 +1,10 @@
-import Question01 from "./components/basic/Question01"
+import './App.css'
+import DynamicImage from './components/basic/Question05'
 
 const App = () => {
   return (
     <>
-      <Question01 />
+      <DynamicImage />
     </>
   )
 }
