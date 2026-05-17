@@ -1,10 +1,14 @@
 import './App.css'
-import DynamicImage from './components/basic/Question05'
+import Greeting from './components/basic/Question06'
 
 const App = () => {
+  const names = ['山田','鈴木','佐藤']
+
   return (
     <>
-      <DynamicImage />
+      {names.map((name, index) => (
+           <Greeting key = {index} name={name} />
+      ))}
     </>
   )
 }
