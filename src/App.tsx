@@ -1,14 +1,12 @@
 import './App.css'
-import Greeting from './components/basic/Question06'
+import Button from './components/basic/Question08'
 
 const App = () => {
-  const names = ['山田','鈴木','佐藤']
-
   return (
     <>
-      {names.map((name, index) => (
-           <Greeting key = {index} name={name} />
-      ))}
+    <Button size="small" color="red" text="small Button" />
+    <Button />
+    <Button size="large" text="クリック" />
     </>
   )
 }
