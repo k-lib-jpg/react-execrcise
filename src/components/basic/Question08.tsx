@@ -29,3 +29,15 @@ const Button = ({ size = "medium", color = "blue", text = "Clicl me" }: ButtonPr
 }}
  
 export default Button;
+
+// const App = () => {
+//   return (
+//     <>
+//     <Button size="small" color="red" text="small Button" />
+//     <Button />
+//     <Button size="large" text="クリック" />
+//     </>
+//   )
+// }
+
+// export default App

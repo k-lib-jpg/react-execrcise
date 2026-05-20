@@ -1,12 +1,23 @@
 import './App.css'
-import Button from './components/basic/Question08'
+import Card from './components/basic/Question09'
 
 const App = () => {
   return (
     <>
-    <Button size="small" color="red" text="small Button" />
-    <Button />
-    <Button size="large" text="クリック" />
+        <Card title="カード1">
+          <p>これは最初のカードです</p>
+        </Card>
+
+        <Card title="カード2">
+          <ul>
+            <li>リスト項目1</li>
+            <li>リスト項目2</li>
+          </ul>
+        </Card>
+
+        <Card title="カード3">
+          <button>ボタンも入れられます</button>
+        </Card>
     </>
   )
 }
