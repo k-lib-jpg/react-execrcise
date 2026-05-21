@@ -1,23 +1,27 @@
 import './App.css'
-import Card from './components/basic/Question09'
+import InputField from './components/basic/Question10'
 
 const App = () => {
   return (
     <>
-        <Card title="カード1">
-          <p>これは最初のカードです</p>
-        </Card>
-
-        <Card title="カード2">
-          <ul>
-            <li>リスト項目1</li>
-            <li>リスト項目2</li>
-          </ul>
-        </Card>
-
-        <Card title="カード3">
-          <button>ボタンも入れられます</button>
-        </Card>
+        <InputField 
+            label="名前" 
+            type="text" 
+            placeholder="名前を入力してください"
+            required 
+        />
+         <InputField 
+            label="メールアドレス" 
+            type="email" 
+            placeholder="メールアドレスを入力してください"
+            required 
+        />
+         <InputField 
+            label="パスワード" 
+            type="password" 
+            placeholder="パスワードを入力してください"
+            required 
+        />
     </>
   )
 }
