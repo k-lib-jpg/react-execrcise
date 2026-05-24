@@ -1,10 +1,10 @@
 import './App.css'
-import ToggleSwitch from './components/basic/Question13'
+import RegistrationForm from './components/basic/Question14'
 
 const App = () => {
   return (
     <>
-        <ToggleSwitch />
+        <RegistrationForm />
     </>
   )
 }
