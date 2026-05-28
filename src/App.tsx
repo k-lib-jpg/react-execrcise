@@ -1,10 +1,10 @@
 import './App.css'
-import RegistrationForm from './components/basic/Question14'
+import ClickButtons from './components/basic/Question16'
 
 const App = () => {
   return (
     <>
-        <RegistrationForm />
+        <ClickButtons/>
     </>
   )
 }

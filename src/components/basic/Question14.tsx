@@ -1,18 +1,18 @@
 import { useState, type ChangeEvent, type FormEvent } from 'react';
- 
-function RegistrationForm() {
-  // 各フィールドの状態を管理
+
+// 各ステートの管理
+const RegistrationForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [age, setAge] = useState(0);
 
-  
+// 送信処理
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitted(true);
-    // 送信処理
   };
 
+//入力処理 
    const handleNameChange = (e:ChangeEvent<HTMLInputElement>) => {
     setName(e.target.value);
   };
@@ -27,6 +27,7 @@ function RegistrationForm() {
 
   const [submitted, setSubmitted] = useState(false);
 
+  // リセット機能
   const handleReset = () => {
     setName("");
     setEmail("");
