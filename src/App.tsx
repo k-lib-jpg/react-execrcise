@@ -1,10 +1,10 @@
 import './App.css'
-import ClickButtons from './components/basic/Question16'
+import EventInfo from './components/basic/Question17'
 
 const App = () => {
   return (
     <>
-        <ClickButtons/>
+        <EventInfo/>
     </>
   )
 }
