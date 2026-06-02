@@ -1,10 +1,10 @@
 import './App.css'
-import EventInfo from './components/basic/Question17'
+import MouseEvents from './components/basic/Question18'
 
 const App = () => {
   return (
     <>
-        <EventInfo/>
+        <MouseEvents/>
     </>
   )
 }
