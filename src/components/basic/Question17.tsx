@@ -5,7 +5,7 @@ type Position = {
   y: number
 }
 
-function EventInfo() {
+const EventInfo = () => {
   const [position, setPosition] = useState<Position>({ x: 0, y: 0 });
   const [bgColor, setBgColor] = useState('white');
   const [counter, setCounter] = useState(0);
