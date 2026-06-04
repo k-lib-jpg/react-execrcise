@@ -1,10 +1,10 @@
 import './App.css'
-import KeyboardEvents from './components/basic/Question19'
+import FocusBlurEvents from './components/basic/Question20'
 
 const App = () => {
   return (
     <>
-        <KeyboardEvents/>
+        <FocusBlurEvents/>
     </>
   )
 }
