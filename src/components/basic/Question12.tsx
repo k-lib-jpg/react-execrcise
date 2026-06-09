@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent } from 'react';
  
-function TextInput() {
+const TextInput = () => {
   // テキストの状態を管理
   const [ text, setText ] = useState("");
   // const [ charCount, setCharCount ] = useState(0);

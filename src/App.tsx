@@ -1,10 +1,10 @@
 import './App.css'
-import UncontrolledForm from './components/basic/Question22'
+import FruitList from './components/basic/Question31'
 
 const App = () => {
   return (
     <>
-        <UncontrolledForm/>
+        <FruitList/>
     </>
   )
 }
