@@ -1,10 +1,10 @@
 import './App.css'
-import FruitList from './components/basic/Question31'
+import UserCards from './components/basic/Question32.tsx'
 
 const App = () => {
   return (
     <>
-        <FruitList/>
+        <UserCards/>
     </>
   )
 }
