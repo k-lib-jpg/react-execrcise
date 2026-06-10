@@ -17,11 +17,11 @@ const UserCards = () => {
  
   const getAgeColor = (age: number) => {
     if (age < 20) {
-        return "red";
+        return "#e22222";  // 赤色
     } else if (age >= 20 && age <= 60) {
-        return "green";
+        return "#4CAF50"; // 緑色
     } else {
-        return "blue";
+        return "#2196F3"; // 青色
     }
   };
  
