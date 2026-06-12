@@ -1,10 +1,10 @@
 import './App.css'
-import EmployeeSort from './components/basic/Question35.tsx'
+import MountEffect from './components/basic/Question36.tsx'
 
 const App = () => {
   return (
     <>
-        <EmployeeSort/>
+        <MountEffect/>
     </>
   )
 }
