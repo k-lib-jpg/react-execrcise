@@ -1,10 +1,10 @@
 import './App.css'
-import MountEffect from './components/basic/Question36.tsx'
+import StateWatcher from './components/basic/Question37.tsx'
 
 const App = () => {
   return (
     <>
-        <MountEffect/>
+        <StateWatcher/>
     </>
   )
 }
