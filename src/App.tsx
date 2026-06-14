@@ -1,10 +1,10 @@
 import './App.css'
-import StateWatcher from './components/basic/Question37.tsx'
+import DimensionCalculator from './components/basic/Question38.tsx'
 
 const App = () => {
   return (
     <>
-        <StateWatcher/>
+        <DimensionCalculator/>
     </>
   )
 }
