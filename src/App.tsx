@@ -1,10 +1,10 @@
 import './App.css'
-import DimensionCalculator from './components/basic/Question38.tsx'
+import RouteApp from './components/basic/Question76.tsx'
 
 const App = () => {
   return (
     <>
-        <DimensionCalculator/>
+        <RouteApp/>
     </>
   )
 }
