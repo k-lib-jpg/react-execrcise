@@ -1229,3 +1229,20 @@ nav a.active {
 .info p {
   margin: 0;
 }
+
+/* Question77: Navigation Styles */
+nav {
+  background: #333;
+  padding: 1rem;
+}
+ 
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+ 
+nav a.active {
+  color: #61dafb;
+  font-weight: bold;
+}

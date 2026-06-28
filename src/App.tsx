@@ -1,10 +1,10 @@
 import './App.css'
-import RouteApp from './components/basic/Question76.tsx'
+import Navigation from './components/basic/Question77.tsx'
 
 const App = () => {
   return (
     <>
-        <RouteApp/>
+        <Navigation/>
     </>
   )
 }
